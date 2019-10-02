@@ -18,7 +18,9 @@ function App() {
           <label htmlFor="email">E-MAIL *</label>
           <input type="email" id="email" placeholder="Seu melhor e-mail" />
 
-          <button type="submit">ENVIAR</button>
+          <button className="btn" type="submit">
+            ENVIAR
+          </button>
         </form>
       </div>
     </div>
