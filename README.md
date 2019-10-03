@@ -65,7 +65,7 @@ $ yarn start
 
 ## :information_source: Note
 
-Frontend and Mobile version: **Work in progress... **
+Frontend and Mobile version: **Work in progress...**
 
 ## :memo: License
 
