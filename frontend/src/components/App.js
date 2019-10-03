@@ -1,9 +1,15 @@
 import React from "react";
+import api from "../services/api.js";
 import "./App.css";
 
 import logo from "../assets/logo.svg";
 
 function App() {
+  function handleSubmit(event) {
+    event.preventDefault();
+
+    console.log("Hello World");
+  }
   return (
     <div className="container">
       <img src={logo} alt="Logo" />
@@ -14,7 +20,7 @@ function App() {
           <strong>talentos</strong> para sua empresa
         </p>
 
-        <form>
+        <form onSubmit={handleSubmit}>
           <label htmlFor="email">E-MAIL *</label>
           <input type="email" id="email" placeholder="Seu melhor e-mail" />
 
