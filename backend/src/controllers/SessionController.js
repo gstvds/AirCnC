@@ -8,7 +8,11 @@ module.exports = {
   async store(req, res) {
     const { email } = req.body;
 
-    const user = await User.create({ email });
+    let user = await User.findOne({ email }); // let pois a variável pode mudar
+
+    if (!user) {
+      user = await User.create({ email });
+    }
 
     return res.json(user);
   }
