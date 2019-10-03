@@ -59,7 +59,8 @@ $ yarn start
 $ cd mobile
 $ yarn start
 
-# To run the App from simulator, you need to open your simulator first (works with Android and iOS (macOS only)) and then go to Expo website and click "Run on Simulator". If you want to run with your smartphone, just open your Expo Client app and scan Expo QR Code.
+# To run the App from simulator, you need to open your simulator first (works with Android and iOS (macOS only)) and then go to Expo website and click "Run on Simulator".
+# If you want to run with your smartphone, just open your Expo Client app and scan Expo QR Code.
 ```
 
 ## :information_source: Note
