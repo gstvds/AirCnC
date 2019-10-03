@@ -1,3 +1,6 @@
+<p align='center'>
+<img alt='AirCnC Logo' src='./mobile/assets/logo.png'>
+</p>
 <h1 align="center">AirCnC</h1>
 
 - AirCnC is a online service for Developers that want to find some spots to use with companys that uses same stacks and frameworks. The goal is to connect people and share ideas.
