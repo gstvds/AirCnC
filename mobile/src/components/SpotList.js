@@ -8,7 +8,7 @@ import styles from "../styles/SpotStyles";
 
 import api from "../services/api";
 
-function SpotList({ tech }) {
+function SpotList({ tech, navigation }) {
   const [spots, setSpots] = useState([]);
 
   useEffect(() => {
@@ -23,8 +23,8 @@ function SpotList({ tech }) {
     loadSpots();
   }, []);
 
+  // Function to navigate user through the app, after clicking to make a reservation
   function handleNavigate(id) {
-    // Function to navigate user through the app, after clicking to make a reservation
     navigation.navigate("Book", { id });
   }
 

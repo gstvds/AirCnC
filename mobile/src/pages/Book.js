@@ -13,7 +13,7 @@ import api from "../services/api";
 import styles from "../styles/BookStyles";
 
 export default function Book({ navigation }) {
-  const [date, setDate] = useState([]);
+  const [date, setDate] = useState("");
 
   const id = navigation.getParam("id");
 
