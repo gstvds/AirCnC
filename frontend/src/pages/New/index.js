@@ -27,8 +27,8 @@ export default function New({ history }) {
     data.append("techs", techs);
     data.append("price", price);
 
-    await api.post("/spot", data, {
-      header: { user_id }
+    await api.post("/spots", data, {
+      headers: { user_id }
     });
 
     history.push("/dashboard");
