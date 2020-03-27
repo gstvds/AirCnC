@@ -1,5 +1,5 @@
 <p align='center'>
-<img alt='AirCnC Logo' src='./mobile/assets/logo.png'>
+<img alt='AirCnC Logo' src='https://github.com/gstvds/AirCnC/blob/master/mobile/src/assets/logo.svg'>
 </p>
 
 - AirCnC is a online service for Developers that want to find some spots to use with companys that uses same stacks and frameworks. The goal is to connect people and share ideas.
